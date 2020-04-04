@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+* {
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2E405E;
+}
+
+.header {
+  display: block;
+  height: 10%;
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.nav {
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav h3 {
+  display: inline-block;
+  margin: 30px 75px;
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 3px;
+}
+
+.nav h3:hover {
+  cursor: pointer;
+  border-bottom: solid 2px transparent;
+  -o-border-image: linear-gradient(90deg, #5FE1CF, #a90ac0);
+     border-image: linear-gradient(90deg, #5FE1CF, #a90ac0);
+  border-image-slice: 1;
+}
+
+.container {
+  height: 680px;
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container #foreword {
+  position: absolute;
+  width: 400px;
+  top: 20%;
+}
+
+.container #foreword h1 {
+  color: #5FE1CF;
+  font-size: 48px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.container #foreword h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.container #foreword .startbtn {
+  margin: 10px;
+  padding: 5px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  background: linear-gradient(90deg, #5FE1CF, #a90ac0);
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container #THE {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.3);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container #THE #H {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.container #THE #H #T {
+  display: inline-block;
+  position: absolute;
+  left: -350px;
+}
+
+.container #THE #H #E {
+  display: inline-block;
+  position: absolute;
+  right: -300px;
+}
+
+.container #THE #H #X {
+  display: inline-block;
+  position: absolute;
+}
+
+.container #THE #H .X1 {
+  left: -120px;
+}
+
+.container #THE #H .X2 {
+  right: -120px;
+}
+

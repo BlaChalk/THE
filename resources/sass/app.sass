@@ -1,0 +1,104 @@
+$color_white: #fff
+$color_background: #2E405E
+$color_blue: #5FE1CF
+$color_purple: #a90ac0
+$font_size: 12px
+
+*
+ font-family: 微軟正黑體
+ position: relative
+ // border: solid 1px
+
+body, html
+  padding: 0
+  margin: 0
+  width: 100%
+  height: 100%
+  background-color: $color_background
+
+.header
+  display: block
+  height: 10%
+  width: 100%
+.logo
+  display: inline-block
+  position: absolute
+  left: 50px
+  top: 50%
+  transform: translateY(-50%)
+  cursor: pointer
+.nav
+  display: inline-block
+  left: 50%
+  transform: translateX(-50%)
+  h3
+    display: inline-block
+    margin: 30px 75px
+    color: $color_white
+    font-size: $font_size*1.5
+    padding-bottom: 3px
+    &:hover
+      cursor: pointer
+      border-bottom: solid 2px transparent
+      border-image: linear-gradient(90deg, $color_blue, $color_purple)
+      border-image-slice: 1
+.container
+  height: 680px
+  width: 100%
+  max-width: 1024px
+  margin-left: auto
+  margin-right: auto
+  #foreword
+    position: absolute
+    width: 400px
+    top: 20%
+    h1
+      color: $color_blue
+      font-size: $font_size*4
+      font-style: italic
+      margin-bottom: 20px
+    h3
+      color: $color_white
+      font-size: $font_size*2
+      margin-bottom: 30px
+    .startbtn
+      margin: 10px
+      padding: 5px
+      width: 150px
+      font-weight: bold
+      font-size: $font_size*2
+      color: $color_white
+      background: linear-gradient(90deg, $color_blue, $color_purple)
+      border-radius: 20px
+      text-align: center
+      cursor: pointer
+      user-select: none
+  #THE
+    display: block
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 0
+    color: rgba($color_white, 0.3)
+    user-select: none
+    #H
+      display: inline-block
+      position: absolute
+      left: 50%
+      transform: translateX(-50%)
+      bottom: 0
+      #T
+        display: inline-block
+        position: absolute
+        left: -350px
+      #E
+        display: inline-block
+        position: absolute
+        right: -300px
+      #X
+        display: inline-block
+        position: absolute
+      .X1
+        left: -120px
+      .X2
+        right: -120px
