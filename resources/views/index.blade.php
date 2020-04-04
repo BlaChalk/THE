@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<div class="header">
+    <div class="logo">THE</div>
+    <link rel="stylesheet" href="/css/app.css">
+    <div class="nav">
+      <h3>HOME.</h3>
+      <h3>GAME.</h3>
+      <h3>ISSUE.</h3>
+      <h3>ABOUT US.</h3>
+    </div>
+  </div>
+  <div class="container">
+    <div id="foreword">
+      <h1>您正確使用科技?</h1>
+      <h3>100年後，人口暴增，地球的資源再也不夠使用，科學家們發明了一種技術，將全體人類虛擬化，住進了電腦中，傳輸上太空獲得永恆能源，徹體享受更美好的生活。</h3>
+      <div class="startbtn">開始遊戲</div>
+    </div>
+    <div id="THE">
+      <div id="H">HUMAN
+        <div id="T">TECONOLOGY</div>
+        <div class="X1" id="X">X</div>
+        <div class="X2" id="X">X</div>
+        <div id="E">EVALUATE</div>
+      </div>
+    </div>
+  </div>
