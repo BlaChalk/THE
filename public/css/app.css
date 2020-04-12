@@ -20,13 +20,20 @@ html {
   width: 100%;
 }
 
-.logo {
-  display: inline-block;
+.header .logo {
   position: absolute;
-  left: 50px;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 120px;
+  left: 20px;
+  top: -5px;
   cursor: pointer;
+}
+
+.BG1 {
+  position: absolute;
+  width: 300px;
+  top: 0px;
+  right: 0px;
+  opacity: 0.8;
 }
 
 .nav {
@@ -52,11 +59,12 @@ html {
 }
 
 .container {
-  height: 680px;
+  height: 85%;
   width: 100%;
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0px 30px;
 }
 
 .container #foreword {
@@ -78,7 +86,58 @@ html {
   margin-bottom: 30px;
 }
 
-.container #foreword .startbtn {
+.container .THE {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.3);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container .THE #H {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+}
+
+.container .THE #H #T {
+  display: inline-block;
+  position: absolute;
+  left: -350px;
+}
+
+.container .THE #H #E {
+  display: inline-block;
+  position: absolute;
+  right: -300px;
+}
+
+.container .THE #H #X {
+  display: inline-block;
+  position: absolute;
+}
+
+.container .THE #H .X1 {
+  left: -120px;
+}
+
+.container .THE #H .X2 {
+  right: -120px;
+}
+
+.container #THE {
+  position: absolute;
+  bottom: -30px;
+}
+
+.btn {
   margin: 10px;
   padding: 5px;
   width: 150px;
@@ -95,49 +154,133 @@ html {
           user-select: none;
 }
 
-.container #THE {
+.title {
+  position: absolute;
+  margin: 10px;
+  padding: 5px;
+  height: 20px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(95, 225, 207, 0.8), rgba(169, 10, 192, 0.8));
+  border-radius: 20px;
+  text-align: center;
+  top: 30px;
+  right: 200px;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 250px;
+  background: linear-gradient(90deg, rgba(95, 225, 207, 0.8), rgba(0, 50, 132, 0.8), rgba(169, 10, 192, 0.8));
+  border-radius: 20px;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+}
+
+.title .title_name {
+  font-style: italic;
+  position: relative;
+  top: -30px;
+}
+
+.section {
+  width: 100%;
+}
+
+.section_title {
+  height: 100px;
+}
+
+.contents_inner {
   display: block;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
-  color: rgba(255, 255, 255, 0.3);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  max-width: 1000px;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  top: 0px;
 }
 
-.container #THE #H {
+.subject_section {
   display: inline-block;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
 }
 
-.container #THE #H #T {
+.text {
+  text-align: center;
+  top: 50px;
+  color: #fff;
+}
+
+.member_section {
   display: inline-block;
-  position: absolute;
-  left: -350px;
 }
 
-.container #THE #H #E {
+.member_box {
+  width: 40%;
+  float: left;
+  font-size: 15px;
+  margin: 5% 4%;
+}
+
+.member_photo {
+  width: 200px;
+}
+
+.member_photo img {
+  width: 100%;
+  height: auto;
+}
+
+.member_name {
+  width: 200px;
+  text-align: center;
+}
+
+.member_name .name {
+  cursor: default;
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.contact_section {
   display: inline-block;
-  position: absolute;
-  right: -300px;
 }
 
-.container #THE #H #X {
+.contact_box {
+  width: 40%;
+  top: 30px;
+  float: left;
+  font-size: 15px;
+  margin: 3% 4%;
+  line-height: 100px;
+}
+
+.contact_box h3 {
   display: inline-block;
-  position: absolute;
+  vertical-align: middle;
+  color: #fff;
+  left: 20px;
 }
 
-.container #THE #H .X1 {
-  left: -120px;
+.contact_icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
 }
 
-.container #THE #H .X2 {
-  right: -120px;
+.contact_icon img {
+  width: 100%;
+  height: auto;
 }
 

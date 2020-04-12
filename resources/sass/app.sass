@@ -1,104 +1,212 @@
 $color_white: #fff
 $color_background: #2E405E
 $color_blue: #5FE1CF
+$color_darkblue: #003284
 $color_purple: #a90ac0
 $font_size: 12px
 
 *
- font-family: 微軟正黑體
- position: relative
- // border: solid 1px
+    font-family: 微軟正黑體
+    position: relative
+    // border: solid 1px
 
 body, html
-  padding: 0
-  margin: 0
-  width: 100%
-  height: 100%
-  background-color: $color_background
+    padding: 0
+    margin: 0
+    width: 100%
+    height: 100%
+    background-color: $color_background
 
 .header
-  display: block
-  height: 10%
-  width: 100%
-.logo
-  display: inline-block
-  position: absolute
-  left: 50px
-  top: 50%
-  transform: translateY(-50%)
-  cursor: pointer
-.nav
-  display: inline-block
-  left: 50%
-  transform: translateX(-50%)
-  h3
-    display: inline-block
-    margin: 30px 75px
-    color: $color_white
-    font-size: $font_size*1.5
-    padding-bottom: 3px
-    &:hover
-      cursor: pointer
-      border-bottom: solid 2px transparent
-      border-image: linear-gradient(90deg, $color_blue, $color_purple)
-      border-image-slice: 1
-.container
-  height: 680px
-  width: 100%
-  max-width: 1024px
-  margin-left: auto
-  margin-right: auto
-  #foreword
-    position: absolute
-    width: 400px
-    top: 20%
-    h1
-      color: $color_blue
-      font-size: $font_size*4
-      font-style: italic
-      margin-bottom: 20px
-    h3
-      color: $color_white
-      font-size: $font_size*2
-      margin-bottom: 30px
-    .startbtn
-      margin: 10px
-      padding: 5px
-      width: 150px
-      font-weight: bold
-      font-size: $font_size*2
-      color: $color_white
-      background: linear-gradient(90deg, $color_blue, $color_purple)
-      border-radius: 20px
-      text-align: center
-      cursor: pointer
-      user-select: none
-  #THE
     display: block
+    height: 10%
+    width: 100%
+    .logo
+        position: absolute
+        width: 120px
+        left: 20px
+        top: -5px
+        cursor: pointer
+
+.BG1
     position: absolute
+    width: 300px
+    top: 0px
+    right: 0px
+    opacity: 0.8
+
+.nav
+    display: inline-block
     left: 50%
     transform: translateX(-50%)
-    bottom: 0
-    color: rgba($color_white, 0.3)
+    h3
+        display: inline-block
+        margin: 30px 75px
+        color: $color_white
+        font-size: $font_size*1.5
+        padding-bottom: 3px
+        &:hover
+            cursor: pointer
+            border-bottom: solid 2px transparent
+            border-image: linear-gradient(90deg, $color_blue, $color_purple)
+            border-image-slice: 1
+
+.container
+    height: 85%
+    width: 100%
+    max-width: 1024px
+    margin-left: auto
+    margin-right: auto
+    padding: 0px 30px
+    #foreword
+        position: absolute
+        width: 400px
+        top: 20%
+        h1
+            color: $color_blue
+            font-size: $font_size*4
+            font-style: italic
+            margin-bottom: 20px
+        h3
+            color: $color_white
+            font-size: $font_size*2
+            margin-bottom: 30px
+    .THE
+        display: block
+        position: relative
+        left: 50%
+        transform: translateX(-50%)
+        bottom: 0
+        color: rgba($color_white, 0.3)
+        user-select: none
+        #H
+            display: inline-block
+            position: absolute
+            left: 50%
+            transform: translateX(-50%)
+            bottom: 20px
+            #T
+                display: inline-block
+                position: absolute
+                left: -350px
+            #E
+                display: inline-block
+                position: absolute
+                right: -300px
+            #X
+                display: inline-block
+                position: absolute
+            .X1
+                left: -120px
+            .X2
+                right: -120px
+    #THE
+        position: absolute
+        bottom: -30px
+
+.btn
+    margin: 10px
+    padding: 5px
+    width: 150px
+    font-weight: bold
+    font-size: $font_size*2
+    color: $color_white
+    background: linear-gradient(90deg, $color_blue, $color_purple)
+    border-radius: 20px
+    text-align: center
+    cursor: pointer
     user-select: none
-    #H
-      display: inline-block
-      position: absolute
-      left: 50%
-      transform: translateX(-50%)
-      bottom: 0
-      #T
-        display: inline-block
+
+.title
+    position: absolute
+    margin: 10px
+    padding: 5px
+    height: 20px
+    width: 200px
+    font-weight: bold
+    font-size: $font_size*3
+    color: $color_white
+    background: linear-gradient(90deg, rgba($color_blue, 0.8), rgba($color_purple, 0.8))
+    border-radius: 20px
+    text-align: center
+    top: 30px
+    right: 200px
+    &::before
+        content: ""
         position: absolute
-        left: -350px
-      #E
+        height: 5px
+        width: 250px
+        background: linear-gradient(90deg, rgba($color_blue, 0.8),rgba($color_darkblue, 0.8) , rgba($color_purple, 0.8))
+        border-radius: 20px
+        top: 50%
+        right: 100%
+        transform: translateY(-50%)
+    .title_name
+        font-style: italic
+        position: relative
+        top: -30px
+
+.section
+    width: 100%
+.section_title
+    height: 100px
+.contents_inner
+    display: block
+    max-width: 1000px
+    width: 100%
+    height: 500px
+    margin: 0 auto
+    padding: 0 20px
+    top: 0px
+
+.subject_section
+    display: inline-block
+.text
+    text-align: center
+    top: 50px
+    color: $color_white
+
+.member_section
+    display: inline-block
+.member_box
+    width: 40%
+    float: left
+    font-size: 15px
+    margin: 5% 4%
+.member_photo
+    width: 200px
+    img
+        width: 100%
+        height: auto
+.member_name
+    width: 200px
+    text-align: center
+    .name
+        cursor: default
+        user-select: auto
+        left: 0
+        right: 0
+        margin: auto
+        margin-top: 20px
+
+.contact_section
+    display: inline-block
+.contact_box
+    width: 40%
+    top: 30px
+    float: left
+    font-size: 15px
+    margin: 3% 4%
+    line-height: 100px
+    h3
         display: inline-block
-        position: absolute
-        right: -300px
-      #X
-        display: inline-block
-        position: absolute
-      .X1
-        left: -120px
-      .X2
-        right: -120px
+        vertical-align: middle
+        color: $color_white
+        left: 20px
+.contact_icon
+    display: inline-block
+    vertical-align: middle
+    width: 100px
+    img
+        width: 100%
+        height: auto
