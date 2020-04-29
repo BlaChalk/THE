@@ -2,17 +2,22 @@
 
 <link rel="stylesheet" href="/css/app.css">
 
+<img class="HomeScreen" src="/img/HomeScreen.gif" alt="HomeScreen">
 <div class="header">
     <a href="">
         <img class="logo" src="/img/logo.png" alt="THE">
     </a>
 
     <div class="nav">
-      <h3>HOME.</h3>
-      <h3>GAME.</h3>
-      <h3>ISSUE.</h3>
-      <h3>ABOUT US.</h3>
-    </div>
+        <a href="/">
+            HOME.
+        </a>
+        <a>GAME.</a>
+        <a>ISSUE.</a>
+        <a href="/about">
+            ABOUT US.
+        </a>
+      </div>
 </div>
 
 <div class="container">

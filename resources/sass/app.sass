@@ -39,11 +39,13 @@ body, html
     display: inline-block
     left: 50%
     transform: translateX(-50%)
-    h3
+    a
         display: inline-block
+        text-decoration: none
+        font-weight: bold
         margin: 30px 75px
         color: $color_white
-        font-size: $font_size*1.5
+        font-size: $font_size*1.8
         padding-bottom: 3px
         &:hover
             cursor: pointer
@@ -103,6 +105,10 @@ body, html
     #THE
         position: absolute
         bottom: -30px
+.HomeScreen
+    position: absolute
+    width: 100%
+    height: 100%
 
 .btn
     margin: 10px
@@ -129,7 +135,7 @@ body, html
     background: linear-gradient(90deg, rgba($color_blue, 0.8), rgba($color_purple, 0.8))
     border-radius: 20px
     text-align: center
-    top: 30px
+    top: 70px
     right: 200px
     &::before
         content: ""
@@ -149,51 +155,68 @@ body, html
 .section
     width: 100%
 .section_title
-    height: 100px
+    height: 70px
 .contents_inner
     display: block
     max-width: 1000px
     width: 100%
-    height: 500px
+    height: 100%
     margin: 0 auto
     padding: 0 20px
     top: 0px
 
+// about us
 .subject_section
     display: inline-block
+    height: 100%
 .text
-    text-align: center
-    top: 50px
+    text-align: left
+    top: 20%
     color: $color_white
+#arrow1
+    top: -120px
+    left: 50%
+    transform: translateX(-50%)
 
 .member_section
     display: inline-block
 .member_box
+    top: 10%
     width: 40%
     float: left
     font-size: 15px
-    margin: 5% 4%
+    margin: 5% 4% 0% 4%
 .member_photo
+    display: inline-block
     width: 200px
     img
         width: 100%
         height: auto
-.member_name
-    width: 200px
+.member_intro
+    display: inline-block
+    width: 180px
+    vertical-align: top
+    top: 30px
+    left: 20px
     text-align: center
+.member_name
     .name
         cursor: default
         user-select: auto
-        left: 0
-        right: 0
         margin: auto
         margin-top: 20px
+.member_text
+    color: $color_white
+#arrow2
+    left: 50%
+    transform: translateX(-50%)
 
 .contact_section
     display: inline-block
+    margin-top: 7%
 .contact_box
-    width: 40%
-    top: 30px
+    width: 25%
+    top: 30%
     float: left
     font-size: 15px
     margin: 3% 4%
@@ -209,4 +232,21 @@ body, html
     width: 100px
     img
         width: 100%
+        opacity: 0.7
         height: auto
+
+.animate
+    transition-duration: 2s
+
+.arrow
+    animation: arrowdrift 3s linear infinite
+@keyframes arrowdrift
+    0%
+        transform: translateY(0px)
+        opacity: 0.1
+    50%
+        transform: translateY(5px)
+        opacity: 1
+    100%
+        transform: translateY(0px)
+        opacity: 0.1
