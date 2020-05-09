@@ -1,0 +1,24 @@
+@media all and (min-width: 950px) and (max-width: 1100px) {
+  .nav a {
+    margin: 30px 50px;
+  }
+
+  .container {
+    max-width: 890px;
+  }
+
+  .contents_inner {
+    max-width: 850px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 949px) {
+  .nav a {
+    margin: 30px 25px;
+  }
+
+  .container {
+    max-width: 700px;
+  }
+}
+

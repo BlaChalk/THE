@@ -1,0 +1,22 @@
+$pcs-media:1100px
+$pad-media:950px
+$pads-media:949px
+$phone-media:480px
+$phones-media:479px
+
+
+@media all and (min-width: $pad-media) and ( max-width: $pcs-media )
+    .nav
+        a
+            margin: 30px 50px
+    .container
+        max-width: 890px
+    .contents_inner
+        max-width: 850px
+
+@media all and (min-width: $phone-media) and ( max-width: $pads-media)
+    .nav
+        a
+            margin: 30px 25px
+    .container
+        max-width: 700px
