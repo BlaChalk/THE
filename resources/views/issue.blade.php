@@ -32,7 +32,8 @@
                     <div class="title_name">網路成癮危害</div>
                 </div>
             </div>
-            <div class="contents_inner">
+            <div class="contents_inner class1_1">
+                <img class="mid_img" src="/img/ISSUE_1_1.png" alt="body">
                 <div class="issue_1">
                     <h1 class="inner_title">身體</h1>
                     <h2 class="little_title">窩在房間一整天，好像也不會怎麼樣啊...</h2>
@@ -51,7 +52,8 @@
                     <div class="title_name">網路成癮危害</div>
                 </div>
             </div>
-            <div class="contents_inner">
+            <div class="contents_inner class1_2">
+                <img class="mid_img" src="/img/ISSUE_1_2.png" alt="heart">
                 <div class="issue_1">
                     <h1 class="inner_title">心理</h1>
                     <h2 class="little_title">你的眼神，為什麼那麼的空洞?</h2>
@@ -70,7 +72,8 @@
                     <div class="title_name">網路成癮成因</div>
                 </div>
             </div>
-            <div class="contents_inner">
+            <div class="contents_inner class2">
+                <img class="mid_img" src="/img/ISSUE_2.png" alt="growing">
                 <div class="issue_1">
                     <h3 class="text text_2">在現實生活中遇上挫折，以逃避的心態過度使用網路而忽略現實生活，現實生活中的問題未被解決，巨大的挫敗與罪惡感導致成癮者繼續依賴網路，形成惡性循環，導致網路成癮。</h3>
                     <h2 class="little_title" id="t1">從小到大的「好朋友」-電子照護者</h2>
@@ -89,7 +92,7 @@
                     <div class="title_name">改善網路成癮</div>
                 </div>
             </div>
-            <div class="contents_inner">
+            <div class="contents_inner class3">
                 <div class="issue_1">
                     <h3 class="text text_2" id="c2">
                         1. 病識感：培養成癮者的病識感，成癮者若有自我意識，認知自身困境，即可向外界尋求協助。<br><br>
@@ -112,7 +115,8 @@
                     <div class="title_name">網路遊戲成癮症</div>
                 </div>
             </div>
-            <div class="contents_inner">
+            <div class="contents_inner class4">
+                <img class="mid_img" src="/img/ISSUE_4.png" alt="game">
                 <div class="issue_1">
                     <h2 class="little_title" id="t2">Gaming disorder？我通關都很順利，沒什麼障礙阿？</h2>
                     <h3 class="text text_2" id="c3">
@@ -132,7 +136,8 @@
                     <div class="title_name">正確使用網路</div>
                 </div>
             </div>
-            <div class="contents_inner">
+            <div class="contents_inner class5">
+                {{-- <img class="mid_img" src="/img/ISSUE_5.png" alt="touch"> --}}
                 <div class="issue_1">
                     <h2 class="little_title" id="t3">提高使用網路的效率，避免漫無目的的瀏覽網頁與影片造成時間的損耗。</h2>
                     <h3 class="text text_3" id="c4">
