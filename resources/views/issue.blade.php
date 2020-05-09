@@ -20,10 +20,13 @@
                         ●網路成癮者：使用網路的時間越來越長，忽略現實生活、社群交際、漫無目的的瀏覽網頁，也不願意完成學業工作、沒有網路可用就會心神不寧，進而影響到日常作息。
                     </h4>
                 </div>
+                <a href="#class1_1" class="pagebtn">
+                    <svg enable-background="new 0 0 32 32" height="32px" class="arrow" id="arrow_issue_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="arrow_x5F_down"><polygon points="2.002,10 16.001,24 30.002,10  "/></g></svg>
+                </a>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="class1_1">
             <div class="section_title">
                 <div class="title">
                     <div class="title_name">網路成癮危害</div>
@@ -36,15 +39,18 @@
                     <h3 class="text text_2">過度使用網路易造成視力損傷，與久坐和姿勢不正，如：長期低頭滑手機、過度使用滑鼠、鍵盤等情形會引發關節肌肉，如：手腕、脖子、肩膀等肌肉損傷。長期久坐，缺乏運動也容易造成心血管疾病、肥胖或體重過輕等情況。
                     </h3>
                 </div>
+                <a href="#class1_2" class="pagebtn">
+                    <svg enable-background="new 0 0 32 32" height="32px" class="arrow" id="arrow_issue_2" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="arrow_x5F_down"><polygon points="2.002,10 16.001,24 30.002,10  "/></g></svg>
+                </a>
             </div>
         </section>
 
-        <section class="section">
-            {{-- <div class="section_title">
+        <section class="section" id="class1_2">
+            <div class="section_title" style="opacity: 0; user-select: none">
                 <div class="title">
                     <div class="title_name">網路成癮危害</div>
                 </div>
-            </div> --}}
+            </div>
             <div class="contents_inner">
                 <div class="issue_1">
                     <h1 class="inner_title">心理</h1>
@@ -52,10 +58,13 @@
                     <h3 class="text text_2">快速變動充滿刺激感的網路世界，使成癮者難以感受現實生活中的刺激感，注意力以專注力也逐漸限縮至2~3分鐘，成癮者也無法忍受獨自一人的空閒時間，焦慮與無事可做時便會漫無目的瀏覽網路，全面接受來自網路的大量訊息，也使成癮者缺乏獨立思考的能力。長期網路成癮的結果，會影響現實生活中成癮者情緒起伏不定、焦慮、不耐煩、寂寞等負面心理壓力產生。
                     </h3>
                 </div>
+                <a href="#class2" class="pagebtn">
+                    <svg enable-background="new 0 0 32 32" height="32px" class="arrow" id="arrow_issue_3" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="arrow_x5F_down"><polygon points="2.002,10 16.001,24 30.002,10  "/></g></svg>
+                </a>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="class2">
             <div class="section_title">
                 <div class="title">
                     <div class="title_name">網路成癮成因</div>
@@ -68,10 +77,13 @@
                     <h3 class="text text_2" id="c1">3C產品攜帶方便與高吸引度的特性，成了忙碌的家長打發孩子最好的利器。3C產品能有效的對孩子進行威逼利誘與行為掌束。但若未控管孩子的使用時間，一容易造成孩子 網路成癮與親子關係疏離的情況，網路上的資訊未善加挑選，兒童不宜的情節容易造成孩子身心受創，故電子照護者的議題值得家長深思。
                     </h3>
                 </div>
+                <a href="#class3" class="pagebtn">
+                    <svg enable-background="new 0 0 32 32" height="32px" class="arrow" id="arrow_issue_4" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="arrow_x5F_down"><polygon points="2.002,10 16.001,24 30.002,10  "/></g></svg>
+                </a>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="class3">
             <div class="section_title">
                 <div class="title">
                     <div class="title_name">改善網路成癮</div>
@@ -88,10 +100,13 @@
                         6. 心態轉變：給於足夠的信任與時間，並且教導正確網路使用方式，使其了解除了娛樂，網路是生活的好幫手，適度的使用網路，才能真正體會到網路世界中的無邊無際。
                     </h3>
                 </div>
+                <a href="#class4" class="pagebtn">
+                    <svg enable-background="new 0 0 32 32" height="32px" class="arrow" id="arrow_issue_5" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="arrow_x5F_down"><polygon points="2.002,10 16.001,24 30.002,10  "/></g></svg>
+                </a>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="class4">
             <div class="section_title">
                 <div class="title titleW">
                     <div class="title_name">網路遊戲成癮症</div>
@@ -105,10 +120,13 @@
                         確診後除了藥物治療，認知行為治療也是重點，其中家人的參與是關鍵。協助患者學習時間管理、情緒管理、人際關係管理等技巧，並引導患者尋找替代的興趣。
                     </h3>
                 </div>
+                <a href="#class5" class="pagebtn">
+                    <svg enable-background="new 0 0 32 32" height="32px" class="arrow" id="arrow_issue_6" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="arrow_x5F_down"><polygon points="2.002,10 16.001,24 30.002,10  "/></g></svg>
+                </a>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="class5">
             <div class="section_title">
                 <div class="title">
                     <div class="title_name">正確使用網路</div>
@@ -127,10 +145,13 @@
 
                     </h3>
                 </div>
+                <a href="#class6" class="pagebtn">
+                    <svg enable-background="new 0 0 32 32" height="32px" class="arrow" id="arrow_issue_3" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="arrow_x5F_down"><polygon points="2.002,10 16.001,24 30.002,10  "/></g></svg>
+                </a>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="class6">
             <div class="section_title">
                 <div class="title">
                     <div class="title_name">科技自學力</div>

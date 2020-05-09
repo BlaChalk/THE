@@ -244,9 +244,6 @@ html {
 
 #arrow1 {
   bottom: 90px;
-  left: 50%;
-  transform: translateX(-50%);
-  fill: #fff;
 }
 
 .member_section {
@@ -296,9 +293,6 @@ html {
 
 #arrow2 {
   bottom: 25px;
-  left: 50%;
-  transform: translateX(-50%);
-  fill: #fff;
 }
 
 .contact_section {
@@ -339,6 +333,9 @@ html {
 }
 
 .arrow {
+  left: 50%;
+  transform: translateX(-50%);
+  fill: #fff;
   -webkit-animation: arrowdrift 3s linear infinite;
           animation: arrowdrift 3s linear infinite;
 }
@@ -462,5 +459,25 @@ html {
 
 .issue_1 #c5 {
   top: 150px;
+}
+
+#arrow_issue_1 {
+  bottom: -100px;
+}
+
+#arrow_issue_2 {
+  bottom: -175px;
+}
+
+#arrow_issue_3 {
+  bottom: -110px;
+}
+
+#arrow_issue_4 {
+  bottom: -140px;
+}
+
+#arrow_issue_5 {
+  bottom: -63px;
 }
 
