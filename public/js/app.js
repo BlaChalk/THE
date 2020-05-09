@@ -19283,6 +19283,13 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+$(document).on('click', '.pagebtn', function (event) {
+  event.preventDefault();
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top
+  }, 850);
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -19339,16 +19346,28 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/media.sass":
+/*!***********************************!*\
+  !*** ./resources/sass/media.sass ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!***************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/app.sass ***!
-  \***************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/app.sass ./resources/sass/media.sass ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\LaravelWeb\THE\resources\js\app.js */"./resources/js/app.js");
 __webpack_require__(/*! C:\LaravelWeb\THE\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\LaravelWeb\THE\resources\sass\app.sass */"./resources/sass/app.sass");
+__webpack_require__(/*! C:\LaravelWeb\THE\resources\sass\app.sass */"./resources/sass/app.sass");
+module.exports = __webpack_require__(/*! C:\LaravelWeb\THE\resources\sass\media.sass */"./resources/sass/media.sass");
 
 
 /***/ })

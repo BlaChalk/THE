@@ -1,5 +1,5 @@
 $color_white: #fff
-$color_background: #2E405E
+$color_background: #49005C
 $color_blue: #5FE1CF
 $color_darkblue: #003284
 $color_purple: #a90ac0
@@ -128,7 +128,7 @@ body, html
     margin: 10px
     padding: 5px
     height: 20px
-    width: 200px
+    width: 230px
     font-weight: bold
     font-size: $font_size*3
     color: $color_white
@@ -151,6 +151,8 @@ body, html
         font-style: italic
         position: relative
         top: -30px
+.titleW
+    width: 280px
 
 .section
     width: 100%
@@ -164,19 +166,29 @@ body, html
     margin: 0 auto
     padding: 0 20px
     top: 0px
+#contents_first
+    height: 95%
 
 // about us
+.BG
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    opacity: 0.5
 .subject_section
     display: inline-block
     height: 100%
 .text
     text-align: left
-    top: 20%
+    top: 15%
     color: $color_white
 #arrow1
-    top: -120px
+    bottom: 90px
     left: 50%
     transform: translateX(-50%)
+    fill: $color_white
 
 .member_section
     display: inline-block
@@ -208,8 +220,10 @@ body, html
 .member_text
     color: $color_white
 #arrow2
+    bottom: 25px
     left: 50%
     transform: translateX(-50%)
+    fill: $color_white
 
 .contact_section
     display: inline-block
@@ -250,3 +264,64 @@ body, html
     100%
         transform: translateY(0px)
         opacity: 0.1
+
+// issue
+.inner_title
+    top: 50px
+    left: 10%
+    font-size: $font_size*4
+    color: $color_blue
+.little_title
+    top: 30px
+    left: 10%
+    font-size: $font_size*3
+    color: $color_blue
+.issue_1
+    img
+        display: inline-block
+        top: 120px
+        width: 500px
+    .text_1
+        display: inline-block
+        // text-align: left
+        top: 50px
+        left: 5%
+        width: 40%
+    .text_2
+        top: 100px
+        width: 75%
+        left: 50%
+        transform: translateX(-50%)
+        font-size: $font_size*2
+    .text_3
+        top: 100px
+        width: 105%
+        left: 50%
+        transform: translateX(-50%)
+        font-size: $font_size*2
+    #t1
+        top: 150px
+    #t2
+        top: 100px
+    #t3
+        top: 100px
+        font-size: $font_size*2.5
+        left: 50%
+        transform: translateX(-50%)
+    #t4
+        top: 100px
+        font-size: $font_size*2.8
+        left: 50%
+        transform: translateX(-50%)
+        text-align: center
+    #c1
+        top: 150px
+    #c2
+        width: 90%
+    #c3
+        width: 100%
+        top: 150px
+    #c4
+        font-size: $font_size*1.5
+    #c5
+        top: 150px
