@@ -12,9 +12,9 @@
                     <div class="title_name">主旨目標</div>
                 </div>
             </div>
-            <div class="contents_inner">
+            <div class="contents_inner" id="contents_first">
                 <h3 class="text">&emsp;&emsp;隨著科技發展演進，科技沉迷問題日益嚴重，台灣超過八成的青少年擁有自己專屬的手機，其中六成曾使用3C產品到半夜(兒童福利聯盟2019)，在使用網路族群中以學生族群比例最高，占 15.7%(國家發展委員會2017)，青少年們享受著科技帶來的好處，卻忽略了過度使用科技所帶來的身心理壓力，目前的解決方法除了訴諸專業治療管道、請學校加強教育，或請家長多注意孩子之外，我們想從青少年的角度出發，讓瞭解網路沉迷的青少年們，注意自己使用科技的行為，繼而約束自己或尋求應有的協助。<br><br>
-                    &emsp;&emsp;本團隊以動畫代表現今社會情況為主要宣傳理念，遊戲作為對於未來世界的想像，以網站作為乘載工具，引起青少年對於認識網路沉迷議題的學習動機。期望讓青少年盡早了解與判斷網路沉迷的現象，進而產生病識感，達到自我管理的效果。
+                    &emsp;&emsp;  2019年台灣網路研究報告指出，在國內網路使用率中，有81.0%會透過網路學習，七成使用「網路檢索」學習，其次「收看網路影片」學習有 65.1%。將近九成認為網路學習有幫助。因此本團隊以網站作為乘載工具，打入青少年的生活圈，用動畫傳達網路成癮的相關知識，遊戲作為讓青少年了解科技相關產業且如何善加利用科技尋求學習資源，期望讓青少年了解網路成癮的危害，將科技轉化為幫助自己的「兵器」，而非抹滅人生的「凶器」！
                 </h3>
             </div>
             <a href="#member" class="pagebtn">
@@ -75,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#contact"  class="pagebtn">
+            <a href="#contact" class="pagebtn">
                 <svg enable-background="new 0 0 32 32" height="32px" class="arrow" id="arrow2" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="arrow_x5F_down"><polygon points="2.002,10 16.001,24 30.002,10  "/></g></svg>
             </a>
         </section>
