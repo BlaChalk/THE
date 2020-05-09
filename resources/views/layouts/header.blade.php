@@ -4,14 +4,10 @@
     </a>
 
     <div class="nav">
-      <a href="/">
-          HOME.
-      </a>
-      <a>GAME.</a>
-      <a>ISSUE.</a>
-      <a href="/about">
-          ABOUT US.
-      </a>
-    </div>
+        <a href="/">HOME.</a>
+        <a>GAME.</a>
+        <a href="/issue">ISSUE.</a>
+        <a href="/about">ABOUT US.</a>
+      </div>
 
 </div>

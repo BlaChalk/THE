@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <link rel="stylesheet" href="/css/app.css">
+<link rel="stylesheet" href="/css/media.css">
 
 <img class="HomeScreen" src="/img/HomeScreen.gif" alt="HomeScreen">
 <div class="header">
@@ -9,14 +10,10 @@
     </a>
 
     <div class="nav">
-        <a href="/">
-            HOME.
-        </a>
+        <a href="/">HOME.</a>
         <a>GAME.</a>
-        <a>ISSUE.</a>
-        <a href="/about">
-            ABOUT US.
-        </a>
+        <a href="/issue">ISSUE.</a>
+        <a href="/about">ABOUT US.</a>
       </div>
 </div>
 
