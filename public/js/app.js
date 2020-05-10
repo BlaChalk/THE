@@ -19283,11 +19283,12 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-$(document).on('click', '.pagebtn', function (event) {
-  event.preventDefault();
-  $('html, body').animate({
-    scrollTop: $($.attr(this, 'href')).offset().top
-  }, 850);
+$(window).scroll(function () {
+  last = $("body").height() - $(window).height();
+
+  if ($(window).scrollTop() >= last - 50) {
+    $(".issueSwitchBTN").css("display", "block");
+  }
 });
 
 /***/ }),

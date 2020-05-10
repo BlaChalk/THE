@@ -599,3 +599,7 @@ html {
   width: 90%;
 }
 
+.issueSwitchBTN {
+  position: fixed;
+}
+
