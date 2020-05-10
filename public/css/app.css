@@ -409,8 +409,13 @@ html {
   left: 50%;
   transform: translateX(-50%);
   fill: #fff;
+  transition-duration: 0.1s;
   -webkit-animation: arrowdrift 3s linear infinite;
           animation: arrowdrift 3s linear infinite;
+}
+
+.arrow:hover {
+  fill: #3ebc99;
 }
 
 @-webkit-keyframes arrowdrift {
@@ -541,24 +546,28 @@ html {
   bottom: -100px;
 }
 
+#arrow_issue_1_1 {
+  bottom: -170px;
+}
+
+#arrow_issue_1_2 {
+  bottom: -105px;
+}
+
 #arrow_issue_2 {
-  bottom: -175px;
+  bottom: -132px;
 }
 
 #arrow_issue_3 {
-  bottom: -110px;
+  bottom: -48px;
 }
 
 #arrow_issue_4 {
-  bottom: -140px;
+  bottom: -188px;
 }
 
 #arrow_issue_5 {
-  bottom: -63px;
-}
-
-#arrow_issue_6 {
-  bottom: -200px;
+  bottom: -97px;
 }
 
 .contents_inner .mid_img {

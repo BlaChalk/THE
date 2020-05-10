@@ -3,6 +3,7 @@ $color_background: #49005C
 $color_blue: #5FE1CF
 $color_darkblue: #003284
 $color_purple: #a90ac0
+$color_green: #3ebc99
 $font_size: 12px
 
 *
@@ -290,7 +291,10 @@ body, html
     left: 50%
     transform: translateX(-50%)
     fill: $color_white
+    transition-duration: 0.1s
     animation: arrowdrift 3s linear infinite
+    &:hover
+        fill: $color_green
 @keyframes arrowdrift
     0%
         transform: translateY(0px)
@@ -367,16 +371,18 @@ body, html
         top: 150px
 #arrow_issue_1
     bottom: -100px
+#arrow_issue_1_1
+    bottom: -170px
+#arrow_issue_1_2
+    bottom: -105px
 #arrow_issue_2
-    bottom: -175px
+    bottom: -132px
 #arrow_issue_3
-    bottom: -110px
+    bottom: -48px
 #arrow_issue_4
-    bottom: -140px
+    bottom: -188px
 #arrow_issue_5
-    bottom: -63px
-#arrow_issue_6
-    bottom: -200px
+    bottom: -97px
 .contents_inner
     .mid_img
         position: absolute
