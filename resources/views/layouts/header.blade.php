@@ -5,7 +5,7 @@
 
     <div class="nav">
         <a href="/">HOME.</a>
-        <a>GAME.</a>
+        <a href="video">VIDEO.</a>
         <a href="/issue">ISSUE.</a>
         <a href="/about">ABOUT US.</a>
       </div>

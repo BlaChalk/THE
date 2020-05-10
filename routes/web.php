@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/video', function () {
+    return view('video');
+});
+
 Route::get('/issue', function () {
     return view('issue');
 });

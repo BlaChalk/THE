@@ -5,13 +5,13 @@
 
 <img class="HomeScreen" src="/img/HomeScreen.gif" alt="HomeScreen">
 <div class="header">
-    <a href="">
+    <a href="#">
         <img class="logo" src="/img/logo.png" alt="THE">
     </a>
 
     <div class="nav">
         <a href="/">HOME.</a>
-        <a>GAME.</a>
+        <a href="video">VIDEO.</a>
         <a href="/issue">ISSUE.</a>
         <a href="/about">ABOUT US.</a>
       </div>
@@ -20,8 +20,10 @@
 <div class="container">
     <div id="foreword">
         <h1>您正確使用科技?</h1>
-        <h3>100年後，人口暴增，地球的資源再也不夠使用，科學家們發明了一種技術，將全體人類虛擬化，住進了電腦中，傳輸上太空獲得永恆能源，徹體享受更美好的生活。</h3>
-        <div class="btn">開始遊戲</div>
+        <h3>科技，是人類智慧的結晶。人類發明了科技，但人類心智的成長卻遠遠跟不上科技發展的成果。一代接著一代，我們在科技的滋養下成長，對科技的依賴也從外蔓延到內心，因此如何與科技平衡的相處成為越來越重要的議題。若有一天，科技離我們而去，我們人類的價值會剩下什麼?</h3>
+        <a href="/video" style="text-decoration: none">
+            <div class="btn" style="top: -10px">觀賞影片</div>
+        </a>
     </div>
     <div class="THE" id="THE">
         <div id="H">HUMAN
