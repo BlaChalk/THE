@@ -3,6 +3,10 @@
 * {
   font-family: 微軟正黑體;
   position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 body,
@@ -84,7 +88,7 @@ html {
 
 .container #foreword h3 {
   color: #fff;
-  font-size: 24px;
+  font-size: 21.6px;
   margin-bottom: 30px;
 }
 
