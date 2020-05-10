@@ -450,6 +450,7 @@ html {
 .inner_title {
   top: 50px;
   left: 10%;
+  width: 90%;
   font-size: 48px;
   color: #5FE1CF;
 }
@@ -457,6 +458,7 @@ html {
 .little_title {
   top: 30px;
   left: 10%;
+  width: 90%;
   font-size: 36px;
   color: #5FE1CF;
 }
@@ -500,14 +502,15 @@ html {
 
 .issue_1 #t3 {
   top: 100px;
-  font-size: 30px;
+  font-size: 31.2px;
+  width: 100%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .issue_1 #t4 {
   top: 100px;
-  font-size: 33.6px;
+  font-size: 30px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
